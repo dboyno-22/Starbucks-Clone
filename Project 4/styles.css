@@ -1,0 +1,460 @@
+/* === GOOGLE FONTS === */ 
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+/* === VARIABLE CSS === */
+:root{
+    text-rendering: optimizeLegibility;
+
+
+/* === COLOURS === */
+    --first-colour: #1e3932;
+    --second-colour: #008248;
+    --third-colour:  #f1f8f6;
+    --fourth-colour: #f3f1e7;
+    --fifth-colour: #d4e9e2;
+
+/* === FONT AND TYPOGRAPHY === */
+    --body-font: 'SoDo Sans SemiBold';
+    
+
+
+
+/* === Z-INDEX === */ 
+    z-index: 1;
+    z-index: 10;
+    z-index: 100;
+}
+
+/* === BASE === */
+*,::before, ::after{
+    box-sizing: border-box;
+}
+
+/* === LAYOUT === */
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+body{
+    
+}
+
+nav{
+    padding: 0 40px;
+    font-size: 14px;
+}
+
+nav img{
+    width: 51px;
+    height: 51px;
+}
+
+main{
+    font-family:'SoDo Sans SemiBold';
+}
+
+.navbar-menu{
+    height: 100px;
+    font-family:'SoDo Sans SemiBold';
+}
+
+#location{
+    margin: 0 40px 0 0;
+}
+
+#location i{
+    font-size: 20px;
+    padding: 0 8px 0 0;
+}
+
+.list-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.list-flex li{
+    margin: 0 0 0 24px;
+    
+}
+
+a.navbar-item1{
+    display: flex;
+    align-items: center;
+}
+
+a.navbar-item{
+    padding: 0;
+
+}
+
+a.navbar-item {
+    height: 99px;
+}
+
+
+#active-navbar{
+    padding-top: 6px;
+    border-bottom: 6px solid #008248;
+}
+
+#nav-buttons a{
+    border-radius: 30px;
+}
+
+a.button.is-primary{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+a.button.is-light{
+    background-color: black;
+    color: white;
+}
+
+#box-nav{
+    display: flex;
+    background-color: #1e3932;
+    color: white;
+    border-radius: 0;
+    height: 50px;
+    padding: 0 40px 0 131px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:'SoDo Sans SemiBold';
+   
+}
+
+.pb5{
+    padding: 0 0 64px;
+}
+
+.flex-size{
+    display: flex;
+    background-color: var(--fifth-colour);
+    height: 800px;
+    align-items: center;
+    background-image: url("\xl-hero-desktop_2021.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    image-rendering: optimizeQuality;
+    
+}
+
+.py5-text{
+    padding: 32px 40px;
+    height: 300px;
+    width: 680px;
+    
+    
+}
+
+.heading-text{
+    font-size: 36px;
+}
+
+
+a.button-sb{
+    padding: 10px 15px;
+    background-color: #008248;
+    border-radius: 30px;
+    color: white;
+}
+
+.pt3-text{
+    padding: 16px 0 0;
+}
+
+
+.pt5{
+    padding: 32px 0 0;
+}
+
+
+.mt3-text{
+    margin: 16px 0 0;
+}
+
+a.color-text{
+    text-decoration: underline;
+}
+
+.py5{
+    height: 500px;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.sb-heading{ 
+    font-size: 28px;
+}
+
+.text-center{
+    font-size: 16px;
+    padding: 16px 0 0;
+}
+
+.sb-content2{
+    padding: 0 40px;
+}
+
+.multiRow{
+    display: flex;
+    margin: 0 71px;
+    padding: 48px 0 0;
+}
+
+.flex-column{
+    flex-direction: column;
+    
+}
+
+#col-1{
+    margin: 0 24px 0 0;
+}
+
+#col-2{
+    margin: 0 24px 0;
+}
+
+#col-3{
+    margin: 0 0 0 24px;
+}
+
+.image-col{
+    margin: 0 159px;
+    padding: 0 0 24px;
+}
+
+.image-col img{
+    width: 48px;
+    height: 48px;
+}
+
+.sb-heading{
+    padding: 0 0 4px;
+}
+
+.pt3{
+    padding: 16px 0 0;
+}
+
+.py9{
+    height: 600px;
+    padding: 64px 0;
+    
+}
+
+.sb-global{
+    height: 470px;
+    padding: 48px 0 0;
+    background-color: #d3e8e154;
+    position: relative;
+    
+}
+
+.sx-heading{
+    padding: 0 0 48px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.px3{
+    padding: 0 4px;
+}
+
+.tabs{
+    width: 100%;
+    height:335px;
+}
+
+.tabs.is-centered ul{
+    height: 60px;
+    border: none;
+    font-size: 24px;
+    box-shadow: 5px 2px 8px #cac9c9;
+    z-index: 1;
+}
+
+.tabs.is-centered span{
+    color: #cba258;
+}
+
+.is-active{
+    border-bottom: 5px solid #008248;
+    
+}
+
+#active-number{
+    color: #4a4a4a;
+}
+
+
+.tabs.is-centered a{
+    border: none;
+    width: 108px;
+
+}
+
+.relative-flex{
+    position: absolute;
+    top: 42%;
+    height: 275px;
+    width: 100%;
+    background-color: #d4e9e2;
+    z-index: 0;
+}
+
+.relative-bg{
+    display: flex;
+    height: 275px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mr7{
+    width:375px;
+    height: 210px;
+    margin: 0 50px 0 0;
+}
+
+.md7{
+    width:375px;
+    height: 124px;
+    padding: 0 16px;
+    
+}
+
+.sd-heading{
+    padding: 0 0 16px;
+    font-size: 24px;
+}
+
+.text-prod{
+    font-size: 16px;
+}
+
+
+#button-more {
+    margin: 16px 0;
+    text-decoration: underline;
+    
+  
+}
+
+#button-more a{
+    color: #008248;
+}
+
+.image-col2{
+    margin: 0 auto;
+}
+
+.image-col2 img{
+    width: 112px;
+    height: 112px;
+}
+
+.py6{
+    height: 600px;
+    padding: 64px 0;
+    text-align: center;
+}
+
+.py10{
+    padding: 64px 0 0;
+    height: 760px;
+}
+
+.grid4{
+    height: 696px;
+    padding: 48px 40px;
+    background-color: #f3f1e7;
+}
+
+.sb-contentCol{
+    height: 600px;
+}
+
+.mb3{
+    padding: 0 0 64px;
+    margin: 0 0 24px 335px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+
+.sd-heading.mb3{
+
+}
+
+.grid{
+    display: grid;
+    height: 168px;
+    grid-template-columns: 168px auto auto;
+}
+
+.gridItem1{
+    height: 60px;
+}
+
+.gridItem{
+    width: 446px;
+    height: 168px;
+}
+
+.grid h3{
+    font-size: 19px;
+}
+
+.grid p{
+    font-size: 16px;
+}
+
+.flex-md{
+    display: flex;
+    padding: 0 24px;
+    width: 446px;
+    height: 168px;
+}
+
+.image-1{
+    min-width: 128px;
+    min-height: 165px;
+    padding: 0 16px 0 0;
+}
+
+.grid4 img{
+   width: 112px;
+   height: 158px;
+}
+
+.card-text{
+    padding: 16px 0 0;
+}
+
+p.text-semi{
+    font-size: 24px;
+}
+
+span.star{
+    font-size: 19px;
+}
+
+.sb-rule{
+    background-color: #f3f1e7;
+    padding: 24px 0 48px;
+    border-top: 1px solid #cac9c9;
+    margin: 0 auto;
+    height: -50%;
+}
